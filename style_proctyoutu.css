@@ -20,6 +20,7 @@ aside {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background-color: rgb(11,11,11);
 }
 
 aside div {
@@ -33,6 +34,20 @@ aside div p {
     font-family: rototo;
     font-size: 12px;
 }
+
+aside button:hover{
+    background-color: rgb(41, 41, 41);
+    
+    width: 77px;
+    height: 68px;
+}
+
+aside button{
+    background-color: rgb(11, 11, 11);
+    border: none;
+    }
+
+
 
 #caja_1 {
     margin-top: 60px;
@@ -66,12 +81,26 @@ nav{
     nav input{
         position: relative;
         top: 8px;
-        height: 35px;
+        height: 45px;
         border-radius: 0px 20px 20px 0px;
         width: 500px;
         font-size: larger;
         background-color: rgb(19, 18, 19);
         border-color: white;
+        }
+
+        nav button{
+            background-color: rgb(11, 11, 11);
+            border: none;
+        }
+            
+            
+
+        nav button:hover{
+            background-color:rgb(75, 73, 75);
+            border-color:white;
+            border-radius: 60px 60px 60px 60px;
+            padding: 5px;
         }
 
     #SubirVideo{
@@ -110,6 +139,17 @@ section button{
     
 }
 
+section button:hover{
+    background-color:rgb(75, 73, 75);
+    border-color:white;
+    border-radius: 60px 60px 60px 60px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 8px;
+    
+}
+
+
 h1{
     color: rgba(255, 255, 255, 0.267);
     font-family: Roboto, Arial, sans-serif;
@@ -119,12 +159,9 @@ h1{
 
 #cuadricula_de_Video{
     display: grid;
-    place-items:center ;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     margin: 15px;
     margin-left: 20px;
-    place-content: space-between;
-    gap: 25px;
+    margin-top: 25px;
 
 }
